@@ -53,8 +53,7 @@ scripts/run_tests.sh --django      # inclui testes Django com SQLite (exige setu
 ## Documentação
 
 `docs/arquitetura.md` · `banco.md` · `apis.md` · `websockets.md` · `regras.md` · `combate.md` · `cartas.md` ·
-`instalacao.md` · `configuracao.md` · `dependencias.md` · `seguranca.md` · `manutencao.md` · `decisoes.md` · `pendencias.md`
-`01_project_charter.md` · `02_requisitos_RF_RNF.md` · `03_casos_de_uso.md` · `04_user_stories.md`
+`instalacao.md` · `configuracao.md` · `dependencias.md` · `seguranca.md` · `manutencao.md` · `decisoes.md` · `pendencias.md ` · `01_project_charter.md` · `02_requisitos_RF_RNF.md` · `03_casos_de_uso.md` · `04_user_stories.md`
 
 ---
 
