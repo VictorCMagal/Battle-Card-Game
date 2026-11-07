@@ -1,0 +1,7 @@
+stateDiagram-v2
+  [*] --> COIN
+  COIN --> COIN_RESULT: ambos escolhem ou timeout 10s
+  COIN_RESULT --> PLAYING: servidor sorteia iniciativa
+  PLAYING --> FINISHED: vitória, empate, AFK, abandono, desconexão
+  COIN --> FINISHED: cancelada
+  FINISHED --> [*]

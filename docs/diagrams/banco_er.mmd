@@ -1,0 +1,13 @@
+erDiagram
+  Conta ||--o{ Deck : possui
+  Conta ||--o{ Grimorium : possui
+  Deck ||--o{ Deck_Carta : contem
+  Grimorium ||--o{ Grimorium_Carta : contem
+  Carta ||--o{ Deck_Carta : instancia
+  Carta ||--o{ Grimorium_Carta : instancia
+  Carta ||--o{ Carta_Elemento : tem
+  Carta ||--o{ Carta_ManaGain : tem
+  Carta ||--o{ Carta_Skill : tem
+  Conta ||--o{ Historico_Partida : joga
+  Historico_Partida ||--o{ Historico_Evento : registra
+  Conta ||--o{ Chat_Mensagem : envia

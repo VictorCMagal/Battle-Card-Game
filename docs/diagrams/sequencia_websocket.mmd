@@ -1,0 +1,11 @@
+sequenceDiagram
+  participant C as Cliente
+  participant K as Consumer
+  participant S as GameSession
+  participant G as Game (engine)
+  C->>K: {type:"cmd", cmd:{type:"move",...}}
+  K->>S: handle_command(user, cmd)
+  S->>G: apply(cmd com player do servidor)
+  G-->>S: eventos ou GameError
+  S-->>C: match_state (view do jogador + eventos públicos)
+  Note over S: reinicia timer se o turno mudou

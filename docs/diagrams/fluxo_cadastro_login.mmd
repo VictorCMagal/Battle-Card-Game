@@ -1,0 +1,16 @@
+sequenceDiagram
+  participant U as Usuário
+  participant W as Página
+  participant A as API
+  participant DB as MySQL
+  U->>W: preenche criar_conta
+  W->>A: GET disponibilidade (assíncrono)
+  U->>W: envia formulário
+  W->>A: POST /api/contas/
+  A->>A: valida regras (rules.py)
+  A->>DB: cria Conta + Deck 1 (40 cartas) + Grimorium vazio
+  A-->>W: 201
+  U->>W: login
+  W->>A: POST /api/login/
+  A->>DB: valida hash, derruba sessão anterior
+  A-->>W: cookie de sessão

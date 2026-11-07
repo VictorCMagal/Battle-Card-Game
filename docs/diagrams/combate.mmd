@@ -1,0 +1,14 @@
+flowchart TD
+  A[Atacante move/invoca sobre carta adversária] --> F1[Revela alvo e cobra MANA COST]
+  F1 -->|descartado| X1[Sem combate]
+  F1 --> F2[Revela atacante e cobra MANA COST]
+  F2 -->|descartado| X1
+  F2 --> D[dano = max 0, Power efetivo + Attack_Bonus - Shield do alvo]
+  D --> C[contra-ataque = Power do alvo - Shield do atacante]
+  C --> M[MANA GAIN por elemento do alvo]
+  M --> T{alvo destruído?}
+  T -->|sim| L1[excesso vai ao LIFE do dono]
+  T -->|não| K1
+  L1 --> K1{atacante destruído?}
+  K1 -->|sim| L2[excesso do contra-ataque no LIFE do dono do atacante]
+  K1 -->|não, alvo destruído| O[atacante ocupa o bloco]

@@ -1,0 +1,11 @@
+flowchart TD
+  T[Timer do turno 45s expira] --> Q{houve ação no turno?}
+  Q -->|sim| R0[afk_count = 0]
+  Q -->|não| R1[afk_count + 1]
+  R1 --> L{afk_count >= 3 e modo 1x1?}
+  L -->|sim| W[adversário vence por AFK: +10 BP, AFK 0 BP]
+  L -->|não| E[encerra o turno]
+  R0 --> E
+  X[Conexão cai] --> J[janela de 120 s, timers continuam]
+  J -->|reconecta| OK[snapshot reenviado]
+  J -->|expira| F[perde por desconexão: +10 BP ao adversário]

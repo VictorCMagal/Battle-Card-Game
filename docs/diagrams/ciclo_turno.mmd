@@ -1,0 +1,10 @@
+stateDiagram-v2
+  [*] --> START
+  START: START (efeitos, compra até 5, DECK BURN)
+  START --> ACTION
+  ACTION: ACTION (walk, summon, move, skill, double cast)
+  ACTION --> ACTION: comando válido
+  ACTION --> ENDING: end_turn / timeout 45s / sem ações
+  ENDING: ENDING (meditação +1 MANA se Avatar não andou)
+  ENDING --> START: próximo jogador
+  ACTION --> [*]: LIFE <= 0

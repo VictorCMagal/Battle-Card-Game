@@ -1,0 +1,19 @@
+sequenceDiagram
+  participant A as Jogador A
+  participant L as Lobby WS
+  participant S as Sala WS
+  participant R as Runtime
+  participant B as Jogador B
+  A->>L: create_room
+  L-->>A: room_joined
+  A->>S: conecta /ws/sala/id
+  B->>L: join_room
+  B->>S: conecta
+  A->>S: ready
+  B->>S: ready
+  S->>R: GameSession.start
+  R-->>A: coin_state (X/O 10s)
+  R-->>B: coin_state
+  R-->>A: match_state (por jogador)
+  R-->>B: match_state
+  R-->>A: match_end + recompensas

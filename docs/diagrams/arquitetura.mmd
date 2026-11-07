@@ -1,0 +1,9 @@
+flowchart LR
+  B[Navegador<br/>HTML/CSS/JS] -- HTTP/JSON --> V[Views Django]
+  B -- WebSocket --> C[Consumers Channels]
+  V --> S[Serviços<br/>accounts / decks / cards]
+  C --> R[Runtime<br/>RoomManager + GameSession]
+  R --> E[engine<br/>regras puras]
+  S --> D[(MySQL)]
+  R -- persistência ao fim --> D
+  C -- chat --> D
