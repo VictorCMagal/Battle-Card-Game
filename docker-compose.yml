@@ -1,0 +1,17 @@
+# OPCIONAL: apenas o MySQL em contêiner (o app roda com venv, como nos scripts).
+# Uso: defina MYSQL_ROOT_PASSWORD/DB_* no ambiente ou ajuste abaixo e rode: docker compose up -d db
+# Depois use DB_HOST=127.0.0.1 e as mesmas credenciais no .env.
+services:
+  db:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?defina MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DB_NAME:-battle_card_game}
+      MYSQL_USER: ${DB_USER:-bcg_user}
+      MYSQL_PASSWORD: ${DB_PASSWORD:?defina DB_PASSWORD}
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_0900_ai_ci"]
+    ports: ["127.0.0.1:3306:3306"]
+    volumes: ["bcg_mysql:/var/lib/mysql"]
+volumes:
+  bcg_mysql:
