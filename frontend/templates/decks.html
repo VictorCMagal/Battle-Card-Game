@@ -1,0 +1,25 @@
+{% extends "base.html" %}{% load static %}
+{% block css %}<link rel="stylesheet" href="{% static 'css/decks.css' %}">{% endblock %}
+{% block content %}
+<header class="topbar">
+  <h1 data-i18n="decks.title"></h1>
+  <div class="row"><a class="btn" href="/lobby/" data-i18n="common.back"></a></div>
+</header>
+<main class="decks-grid">
+  <section class="panel">
+    <div id="slotTabs" class="row wrap"></div>
+    <div class="row">
+      <strong id="deckCount"></strong>
+      <button class="btn" id="selectDeckBtn" data-i18n="decks.select"></button>
+      <button class="btn" id="renameBtn" data-i18n="decks.rename"></button>
+    </div>
+    <div id="deckCards" class="card-grid"></div>
+  </section>
+  <section class="panel">
+    <h2>Grimorium <span id="grimCount" class="muted"></span></h2>
+    <p class="muted" data-i18n="decks.hint"></p>
+    <div id="grimCards" class="card-grid"></div>
+  </section>
+</main>
+{% endblock %}
+{% block scripts %}<script src="{% static 'js/cards.js' %}"></script><script src="{% static 'js/decks.js' %}"></script>{% endblock %}

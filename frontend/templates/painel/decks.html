@@ -1,0 +1,10 @@
+{% extends "painel/base_painel.html" %}
+{% block body %}
+<h1>Decks</h1>
+<table class="table"><thead><tr><th>ID</th><th>Dono</th><th>Slot</th><th>Nome</th><th>Cartas</th></tr></thead>
+<tbody>{% for d in page %}<tr><td>{{ d.id }}</td><td>{{ d.owner.name }}</td><td>{{ d.slot }}</td><td><a href="{% url 'painel_deck' d.id %}">{{ d.name }}</a></td><td>{{ d.n }}</td></tr>{% endfor %}</tbody></table>
+{% include "painel/pager.html" %}
+<h2>Grimoriums</h2>
+<table class="table"><thead><tr><th>ID</th><th>Dono</th><th>Cartas</th></tr></thead>
+<tbody>{% for g in grims %}<tr><td>{{ g.id }}</td><td>{{ g.owner.name }}</td><td><a href="{% url 'painel_grimorium' g.id %}">{{ g.n }}</a></td></tr>{% endfor %}</tbody></table>
+{% endblock %}

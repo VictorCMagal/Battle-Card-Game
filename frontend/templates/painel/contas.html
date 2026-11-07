@@ -1,0 +1,10 @@
+{% extends "painel/base_painel.html" %}
+{% block body %}
+<h1>Contas</h1>
+<form method="get" class="row"><input name="q" value="{{ q }}" placeholder="Nome ou e-mail"><button class="btn">Buscar</button></form>
+<table class="table"><thead><tr><th>ID</th><th>Nome</th><th>E-mail</th><th>Perfil</th><th>BP</th><th>Vitórias</th><th>Último login</th><th></th></tr></thead>
+<tbody>{% for c in page %}<tr><td>{{ c.id }}</td><td>{{ c.name }}</td><td>{{ c.email }}</td><td>{{ c.acc_code }}</td>
+<td>{{ c.cur_battlepoints }}</td><td>{{ c.victory_counts }}</td><td>{{ c.last_login|default:"–" }}</td>
+<td><a href="{% url 'painel_conta_edit' c.id %}">Editar</a></td></tr>{% endfor %}</tbody></table>
+{% include "painel/pager.html" %}
+{% endblock %}

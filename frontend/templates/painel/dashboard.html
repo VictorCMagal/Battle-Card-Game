@@ -1,0 +1,19 @@
+{% extends "painel/base_painel.html" %}{% load static %}
+{% block body %}
+<meta name="idioma" content="PT-BR">
+<h1>Monitoramento em tempo real</h1>
+<div class="cards-row">
+  <div class="stat"><span>Usuários online</span><strong id="mUsers">–</strong></div>
+  <div class="stat"><span>Conexões WS</span><strong id="mWs">–</strong></div>
+  <div class="stat"><span>Salas</span><strong id="mRooms">–</strong></div>
+  <div class="stat"><span>Partidas ativas</span><strong id="mMatches">–</strong></div>
+  <div class="stat"><span>Partidas (total)</span><strong id="mTotal">–</strong></div>
+  <div class="stat"><span>Uptime (s)</span><strong id="mUptime">–</strong></div>
+</div>
+<p id="mConn" class="muted">Conectando…</p>
+<h2>Usuários</h2><p id="mUserList" class="muted"></p>
+<h2>Salas</h2><table class="table"><thead><tr><th>ID</th><th>Nome</th><th>Modo</th><th>Status</th><th>Jogadores</th></tr></thead><tbody id="mRoomRows"></tbody></table>
+<h2>Partidas</h2><table class="table"><thead><tr><th>Sala</th><th>Modo</th><th>Fase</th><th>Turno</th><th>Jogadores</th></tr></thead><tbody id="mMatchRows"></tbody></table>
+<h2>Erros recentes</h2><table class="table"><thead><tr><th>Hora</th><th>Nível</th><th>Origem</th><th>Mensagem</th></tr></thead><tbody id="mErrRows"></tbody></table>
+{% endblock %}
+{% block scripts %}<script src="{% static 'js/painel_monitor.js' %}"></script>{% endblock %}

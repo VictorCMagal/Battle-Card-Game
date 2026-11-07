@@ -1,0 +1,14 @@
+{% extends "painel/base_painel.html" %}
+{% block body %}
+<h1>Importar cartas</h1>
+<form method="post" enctype="multipart/form-data" class="form-block">{% csrf_token %}{{ form.as_p }}<button class="btn primary">Importar</button></form>
+<p class="muted">CSV: colunas <code>card_id,type,name,rarity,power,power_bonus,attack_bonus,damage,shield,mana_cost,elements,mana_gains,skills</code>.
+Veja docs/cartas.md.</p>
+{% if report %}
+<h2>Relatório</h2>
+<p>Criadas: <strong>{{ report.created }}</strong> · Atualizadas: <strong>{{ report.updated }}</strong> ·
+Ignoradas (já existentes): <strong>{{ report.existing|length }}</strong> · Duplicadas no arquivo: <strong>{{ report.duplicates|length }}</strong></p>
+{% if report.errors %}<table class="table"><thead><tr><th>Linha</th><th>Erros</th></tr></thead>
+<tbody>{% for line, errs in report.errors %}<tr><td>{{ line }}</td><td>{{ errs|join:"; " }}</td></tr>{% endfor %}</tbody></table>{% endif %}
+{% endif %}
+{% endblock %}

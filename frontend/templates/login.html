@@ -1,0 +1,19 @@
+{% extends "base.html" %}{% load static %}
+{% block bodyclass %}page-center{% endblock %}
+{% block content %}
+<main class="panel narrow">
+  <h1 data-i18n="login.title"></h1>
+  <form id="loginForm" novalidate>
+    <label><span data-i18n="account.name"></span>
+      <input name="name" maxlength="16" required autocomplete="username"></label>
+    <label><span data-i18n="account.password"></span>
+      <input name="password" type="password" maxlength="32" required autocomplete="current-password"></label>
+    <small class="hint error" id="loginError"></small>
+    <div class="row">
+      <button class="btn primary" type="submit" data-i18n="login.button"></button>
+      <a class="btn" href="/" data-i18n="common.back"></a>
+    </div>
+  </form>
+</main>
+{% endblock %}
+{% block scripts %}<script src="{% static 'js/login.js' %}"></script>{% endblock %}

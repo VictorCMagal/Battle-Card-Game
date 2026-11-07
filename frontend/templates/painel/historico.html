@@ -1,0 +1,8 @@
+{% extends "painel/base_painel.html" %}
+{% block body %}
+<h1>Histórico de partidas</h1>
+<table class="table"><thead><tr><th>ID</th><th>Modo</th><th>A</th><th>B</th><th>Resultado</th><th>Motivo</th><th>Turnos</th><th>Início</th></tr></thead>
+<tbody>{% for p in page %}<tr><td><a href="{% url 'painel_historico_detail' p.id %}">{{ p.id }}</a></td><td>{{ p.modo }}</td>
+<td>{{ p.jogador_a.name }}</td><td>{{ p.jogador_b.name }}</td><td>{{ p.resultado }} {{ p.vencedor }}</td><td>{{ p.motivo }}</td><td>{{ p.turnos }}</td><td>{{ p.iniciada_em }}</td></tr>{% endfor %}</tbody></table>
+{% include "painel/pager.html" %}
+{% endblock %}

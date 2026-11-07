@@ -1,0 +1,8 @@
+{
+  "_comment": "Substitua os placeholders por imagens reais sem alterar código: cards[Card_ID] = caminho em /static/assets/. Foil/Shiny: foil[Card_ID], shiny[Card_ID].",
+  "avatar": "assets/placeholders/avatar.svg",
+  "card_back": "assets/placeholders/card_back.svg",
+  "cards": {},
+  "foil": {},
+  "shiny": {}
+}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}{% load static %}
+{% block bodyclass %}page-center{% endblock %}
+{% block content %}
+<main class="panel hero">
+  <h1 data-i18n="app.title">BATTLE CARD-GAME</h1>
+  <p class="muted" data-i18n="app.tagline"></p>
+  <ul class="stats">
+    <li><span data-i18n="index.server_status"></span>: <strong id="serverStatus">…</strong></li>
+    <li><span data-i18n="index.users_online"></span>: <strong id="usersOnline">…</strong></li>
+  </ul>
+  <div class="row">
+    <a class="btn primary" href="/login/" data-i18n="index.login"></a>
+    <a class="btn" href="/criar_conta/" data-i18n="index.create_account"></a>
+  </div>
+</main>
+{% endblock %}
+{% block scripts %}<script src="{% static 'js/index.js' %}"></script>{% endblock %}

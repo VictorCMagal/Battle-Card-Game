@@ -1,0 +1,12 @@
+{% extends "base.html" %}{% load static %}
+{% block bodyclass %}page-center{% endblock %}
+{% block content %}
+<main class="panel">
+  <h1 data-i18n="servers.title"></h1>
+  <table class="table"><thead><tr>
+    <th data-i18n="servers.name"></th><th data-i18n="servers.status"></th><th data-i18n="servers.users"></th><th></th>
+  </tr></thead><tbody id="serverRows"></tbody></table>
+  <div class="row"><button class="btn" id="logoutBtn" data-i18n="common.logout"></button></div>
+</main>
+{% endblock %}
+{% block scripts %}<script src="{% static 'js/servidores.js' %}"></script>{% endblock %}

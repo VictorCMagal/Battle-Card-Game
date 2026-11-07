@@ -1,0 +1,38 @@
+.arena-page{min-height:100%}
+.room-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:12px;padding:10px}
+.room-layout #roomPanel{grid-column:1}
+.room-layout .arena-wrap{grid-column:1}
+.room-layout .side-panel{grid-column:2;grid-row:1 / span 2}
+.arena-wrap{display:flex;flex-direction:column;gap:8px;min-width:0}
+.arena-wrap[hidden],#roomPanel[hidden]{display:none}
+.statbar{display:flex;gap:14px;align-items:center;background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:6px 12px;flex-wrap:wrap}
+.statbar .life{color:#ff8a80;font-weight:700}.statbar .mana{color:#80d8ff;font-weight:700}
+.side-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+/* Arena 5x5: cartas 375x525 redimensionadas em % pelo CSS (--card-w/--card-h) */
+.board{--card-w:min(15vw,110px);--card-h:calc(var(--card-w) * 1.4);display:grid;grid-template-columns:repeat(5,var(--card-w));grid-template-rows:repeat(5,var(--card-h));gap:4px;justify-content:center;background:#0b0e14;padding:6px;border-radius:10px;border:1px solid var(--border)}
+.cell{position:relative;background:#141b29;border:1px solid #27324a;border-radius:6px;display:flex;align-items:center;justify-content:center;cursor:pointer;min-width:0}
+.cell.hl-move{outline:3px solid var(--ok)}.cell.hl-summon{outline:3px solid var(--accent)}.cell.hl-target{outline:3px solid var(--bad)}
+.cell.sel{box-shadow:0 0 0 3px #ffd54f inset}.cell.opp-sel{box-shadow:0 0 0 3px #ff80ab inset}
+.card{position:relative;width:calc(100% - 4px);height:calc(100% - 4px);border-radius:8px;border:2px solid #0008;color:#fff;overflow:hidden;font-size:.72rem;text-shadow:0 1px 2px #000;cursor:inherit}
+.card .name{position:absolute;top:3px;left:4px;right:4px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .els{position:absolute;top:20px;left:4px;opacity:.9}
+.card .power{position:absolute;bottom:3px;left:4px;font-size:1.2rem;font-weight:800;background:#0008;border-radius:6px;padding:0 6px}
+.card .power.hurt{color:#ff8a80}.card .power.buff{color:#b9f6ca}
+.card .cost{position:absolute;bottom:3px;right:4px;background:#1565c0;border-radius:50%;width:22px;height:22px;display:flex;align-items:center;justify-content:center;font-weight:700}
+.card .shield{position:absolute;bottom:30px;left:4px;background:#455a64;border-radius:6px;padding:0 6px}
+.card.down{background:url(/static/assets/placeholders/card_back.svg) center/cover,#243b55;border-color:#8fb3d9}
+.card.down.owner-A{border-color:#ffb74d}.card.down.owner-B{border-color:#81c784}
+.card.down-mine{filter:brightness(.55)}
+.card.avatar{background:url(/static/assets/placeholders/avatar.svg) center/cover,#3b2f5e;display:flex;align-items:flex-end;justify-content:center}
+.card.avatar.owner-A{border-color:#ffb74d}.card.avatar.owner-B{border-color:#81c784}
+.card.foil{box-shadow:0 0 8px 2px #ffe082}.card.shiny{box-shadow:0 0 10px 3px #b388ff}
+.card.mini{width:72px;height:100px;flex:0 0 auto;cursor:pointer}
+.hand{display:flex;gap:8px;flex-wrap:wrap;min-height:120px;padding:6px;background:var(--panel);border:1px solid var(--border);border-radius:8px}
+.hand .card{width:84px;height:118px;flex:0 0 auto;cursor:pointer;border-color:#fff4}
+.hand .card.sel{transform:translateY(-8px);border-color:#ffd54f}
+.hand .card.opp{background:url(/static/assets/placeholders/card_back.svg) center/cover,#243b55}
+.actions{margin:4px 0}
+.inspector{min-height:120px;font-size:.88rem}
+.inspector strong{font-size:1rem}
+.col{display:flex;flex-direction:column}
+@media (max-width:1100px){.room-layout{grid-template-columns:1fr}.room-layout .side-panel{grid-column:1;grid-row:auto}.board{--card-w:min(17vw,90px)}}

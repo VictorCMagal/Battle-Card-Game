@@ -1,0 +1,14 @@
+{% extends "painel/base_painel.html" %}
+{% block body %}
+<h1>Configurações</h1>
+<h2>Servidores</h2>
+<table class="table"><thead><tr><th>ID</th><th>Nome</th><th>Ativo</th><th></th></tr></thead>
+<tbody>{% for s in servers %}<tr><td>{{ s.id }}</td><td>{{ s.name }}</td><td>{{ s.active }}</td>
+<td><form method="post" class="inline-form">{% csrf_token %}<input type="hidden" name="id" value="{{ s.id }}"><button name="toggle_server" class="link">Ativar/Desativar</button></form></td></tr>{% endfor %}</tbody></table>
+<form method="post" class="form-block">{% csrf_token %}{{ sform.as_p }}<button name="add_server" class="btn">Adicionar servidor</button></form>
+<h2>Chaves de configuração</h2>
+<table class="table"><thead><tr><th>Chave</th><th>Valor</th></tr></thead><tbody>{% for c in configs %}<tr><td>{{ c.key }}</td><td>{{ c.value }}</td></tr>{% endfor %}</tbody></table>
+<form method="post" class="form-block">{% csrf_token %}{{ cform.as_p }}<button name="add_config" class="btn">Salvar configuração</button></form>
+<h2>Manutenção</h2>
+<form method="post">{% csrf_token %}<button name="purge_chat" class="btn">Apagar mensagens de chat antigas</button></form>
+{% endblock %}

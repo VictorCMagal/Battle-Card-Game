@@ -1,0 +1,8 @@
+{% extends "painel/base_painel.html" %}
+{% block body %}
+<h1>{{ title }}</h1>
+<form method="post" class="form-block">{% csrf_token %}
+  {{ form.as_p }}
+  <button class="btn primary" type="submit">Salvar</button>
+</form>
+{% endblock %}

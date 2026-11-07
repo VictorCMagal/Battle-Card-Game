@@ -1,0 +1,26 @@
+{% extends "base.html" %}{% load static %}
+{% block bodyclass %}page-center{% endblock %}
+{% block content %}
+<main class="panel narrow">
+  <h1 data-i18n="account.create_title"></h1>
+  <form id="registerForm" novalidate autocomplete="off">
+    <label><span data-i18n="account.name"></span>
+      <input name="name" maxlength="16" required autocomplete="username"></label>
+    <small class="hint" id="nameHint"></small>
+    <label><span data-i18n="account.password"></span>
+      <input name="password" type="password" maxlength="32" required autocomplete="new-password"></label>
+    <small class="hint" id="passwordHint"></small>
+    <label><span data-i18n="account.password2"></span>
+      <input name="password2" type="password" maxlength="32" required autocomplete="new-password"></label>
+    <small class="hint" id="password2Hint"></small>
+    <label><span data-i18n="account.email"></span>
+      <input name="email" type="email" maxlength="64" required autocomplete="email"></label>
+    <small class="hint" id="emailHint"></small>
+    <div class="row">
+      <button class="btn primary" type="submit" data-i18n="account.create_button"></button>
+      <a class="btn" href="/" data-i18n="common.back"></a>
+    </div>
+  </form>
+</main>
+{% endblock %}
+{% block scripts %}<script src="{% static 'js/criar_conta.js' %}"></script>{% endblock %}

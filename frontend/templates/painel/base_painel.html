@@ -1,0 +1,28 @@
+{% load static %}<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel · BATTLE CARD-GAME</title>
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  <link rel="stylesheet" href="{% static 'css/painel.css' %}">
+</head>
+<body class="painel">
+  <nav class="topbar">
+    <strong>Painel</strong>
+    <a href="{% url 'painel' %}" class="{% if nav == 'dashboard' %}active{% endif %}">Monitor</a>
+    <a href="{% url 'painel_contas' %}" class="{% if nav == 'contas' %}active{% endif %}">Contas</a>
+    <a href="{% url 'painel_cartas' %}" class="{% if nav == 'cartas' %}active{% endif %}">Cartas</a>
+    <a href="{% url 'painel_decks' %}" class="{% if nav == 'decks' %}active{% endif %}">Decks</a>
+    <a href="{% url 'painel_historico' %}" class="{% if nav == 'historico' %}active{% endif %}">Histórico</a>
+    <a href="{% url 'painel_config' %}" class="{% if nav == 'config' %}active{% endif %}">Configurações</a>
+    <a href="/django-admin/">Django Admin</a>
+    <a href="/servidores/" class="right">Voltar ao jogo</a>
+  </nav>
+  <main class="content">
+    {% for m in messages %}<div class="flash {{ m.tags }}">{{ m }}</div>{% endfor %}
+    {% block body %}{% endblock %}
+  </main>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

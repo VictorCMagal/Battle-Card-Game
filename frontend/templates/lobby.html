@@ -1,0 +1,52 @@
+{% extends "base.html" %}{% load static %}
+{% block css %}<link rel="stylesheet" href="{% static 'css/lobby.css' %}">{% endblock %}
+{% block content %}
+<header class="topbar">
+  <h1 data-i18n="app.title"></h1>
+  <div class="row">
+    <span id="meName" class="badge"></span>
+    <a class="btn" href="/decks/" data-i18n="lobby.decks"></a>
+    <a class="btn" id="panelLink" href="/painel/" hidden data-i18n="lobby.panel"></a>
+    <a class="btn" href="/servidores/" data-i18n="lobby.change_server"></a>
+    <button class="btn" id="logoutBtn" data-i18n="common.logout"></button>
+  </div>
+</header>
+<main class="lobby-grid">
+  <section class="panel">
+    <h2 data-i18n="lobby.rooms"></h2>
+    <div class="row">
+      <input id="findId" type="number" min="1" data-i18n-placeholder="lobby.find_placeholder">
+      <button class="btn" id="findBtn" data-i18n="lobby.find"></button>
+    </div>
+    <table class="table"><thead><tr>
+      <th>ID</th><th data-i18n="lobby.room_name"></th><th data-i18n="lobby.mode"></th>
+      <th data-i18n="lobby.status"></th><th data-i18n="lobby.players"></th><th></th>
+    </tr></thead><tbody id="roomRows"></tbody></table>
+    <h3 data-i18n="lobby.create_room"></h3>
+    <form id="createForm" class="row wrap" novalidate>
+      <input name="name" maxlength="24" required data-i18n-placeholder="lobby.room_name">
+      <select name="mode">
+        <option value="versus" data-i18n="mode.versus"></option>
+        <option value="debug" data-i18n="mode.debug"></option>
+      </select>
+      <input name="password" type="password" maxlength="16" data-i18n-placeholder="lobby.room_password">
+      <button class="btn primary" type="submit" data-i18n="lobby.create"></button>
+    </form>
+  </section>
+  <section class="panel">
+    <h2 data-i18n="lobby.users_online"></h2>
+    <ul id="userList" class="list"></ul>
+  </section>
+  <section class="panel chat">
+    <h2 data-i18n="chat.title"></h2>
+    <div id="chatLog" class="chat-log" role="log"></div>
+    <form id="chatForm" class="row">
+      <select id="chatTarget"><option value="" data-i18n="chat.all"></option></select>
+      <input id="chatInput" maxlength="126" autocomplete="off" data-i18n-placeholder="chat.placeholder">
+      <button class="btn primary" type="submit" data-i18n="chat.send"></button>
+    </form>
+  </section>
+</main>
+<div id="inviteBox" class="invite" hidden></div>
+{% endblock %}
+{% block scripts %}<script src="{% static 'js/lobby.js' %}"></script>{% endblock %}

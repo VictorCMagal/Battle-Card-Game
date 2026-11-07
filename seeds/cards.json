@@ -1,0 +1,3814 @@
+{
+ "cards": [
+  {
+   "card_id": 1,
+   "type": "SUMMON",
+   "name": "Earth1",
+   "rarity": "common",
+   "power": 1,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "E"
+   ],
+   "mana_gains": [
+    {
+     "element": "W",
+     "value": 3
+    },
+    {
+     "element": "E",
+     "value": -1
+    },
+    {
+     "element": "B",
+     "value": 3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 2,
+   "type": "SUMMON",
+   "name": "Earth2",
+   "rarity": "common",
+   "power": 2,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "E"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 3
+    },
+    {
+     "element": "A",
+     "value": -1
+    },
+    {
+     "element": "E",
+     "value": 3
+    },
+    {
+     "element": "U",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 3,
+   "type": "SUMMON",
+   "name": "Earth3",
+   "rarity": "common",
+   "power": 3,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "E"
+   ],
+   "mana_gains": [
+    {
+     "element": "U",
+     "value": 3
+    },
+    {
+     "element": "B",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 4,
+   "type": "SUMMON",
+   "name": "Earth4",
+   "rarity": "common",
+   "power": 4,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "E"
+   ],
+   "mana_gains": [
+    {
+     "element": "B",
+     "value": 2
+    },
+    {
+     "element": "U",
+     "value": -1
+    },
+    {
+     "element": "F",
+     "value": 2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 5,
+   "type": "SUMMON",
+   "name": "Earth5",
+   "rarity": "common",
+   "power": 5,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "E"
+   ],
+   "mana_gains": [
+    {
+     "element": "E",
+     "value": 2
+    },
+    {
+     "element": "F",
+     "value": -1
+    },
+    {
+     "element": "B",
+     "value": 2
+    },
+    {
+     "element": "U",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 6,
+   "type": "SUMMON",
+   "name": "Earth6",
+   "rarity": "common",
+   "power": 6,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "E"
+   ],
+   "mana_gains": [
+    {
+     "element": "W",
+     "value": 2
+    },
+    {
+     "element": "B",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 7,
+   "type": "SUMMON",
+   "name": "Earth7",
+   "rarity": "common",
+   "power": 7,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "E"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 1
+    },
+    {
+     "element": "B",
+     "value": -2
+    },
+    {
+     "element": "W",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 8,
+   "type": "SUMMON",
+   "name": "Earth8",
+   "rarity": "common",
+   "power": 8,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "E"
+   ],
+   "mana_gains": [
+    {
+     "element": "S",
+     "value": 1
+    },
+    {
+     "element": "I",
+     "value": -2
+    },
+    {
+     "element": "M",
+     "value": 1
+    },
+    {
+     "element": "W",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 9,
+   "type": "SUMMON",
+   "name": "Earth9",
+   "rarity": "common",
+   "power": 9,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "E"
+   ],
+   "mana_gains": [
+    {
+     "element": "F",
+     "value": 1
+    },
+    {
+     "element": "U",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 10,
+   "type": "SUMMON",
+   "name": "Earth10",
+   "rarity": "common",
+   "power": 10,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 3,
+   "elements": [
+    "E"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 1
+    },
+    {
+     "element": "I",
+     "value": -3
+    },
+    {
+     "element": "W",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 11,
+   "type": "SUMMON",
+   "name": "Fire11",
+   "rarity": "common",
+   "power": 1,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "F"
+   ],
+   "mana_gains": [
+    {
+     "element": "E",
+     "value": 3
+    },
+    {
+     "element": "W",
+     "value": -1
+    },
+    {
+     "element": "F",
+     "value": 3
+    },
+    {
+     "element": "U",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 12,
+   "type": "SUMMON",
+   "name": "Fire12",
+   "rarity": "common",
+   "power": 2,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "F"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 3
+    },
+    {
+     "element": "W",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 13,
+   "type": "SUMMON",
+   "name": "Fire13",
+   "rarity": "common",
+   "power": 3,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "F"
+   ],
+   "mana_gains": [
+    {
+     "element": "W",
+     "value": 3
+    },
+    {
+     "element": "M",
+     "value": -1
+    },
+    {
+     "element": "S",
+     "value": 3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 14,
+   "type": "SUMMON",
+   "name": "Fire14",
+   "rarity": "common",
+   "power": 4,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "F"
+   ],
+   "mana_gains": [
+    {
+     "element": "B",
+     "value": 2
+    },
+    {
+     "element": "U",
+     "value": -1
+    },
+    {
+     "element": "A",
+     "value": 2
+    },
+    {
+     "element": "M",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 15,
+   "type": "SUMMON",
+   "name": "Fire15",
+   "rarity": "common",
+   "power": 5,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "F"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 2
+    },
+    {
+     "element": "U",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 16,
+   "type": "SUMMON",
+   "name": "Fire16",
+   "rarity": "common",
+   "power": 6,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "F"
+   ],
+   "mana_gains": [
+    {
+     "element": "U",
+     "value": 2
+    },
+    {
+     "element": "M",
+     "value": -1
+    },
+    {
+     "element": "W",
+     "value": 2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 17,
+   "type": "SUMMON",
+   "name": "Fire17",
+   "rarity": "common",
+   "power": 7,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "F"
+   ],
+   "mana_gains": [
+    {
+     "element": "E",
+     "value": 1
+    },
+    {
+     "element": "S",
+     "value": -2
+    },
+    {
+     "element": "W",
+     "value": 1
+    },
+    {
+     "element": "I",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 18,
+   "type": "SUMMON",
+   "name": "Fire18",
+   "rarity": "common",
+   "power": 8,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "F"
+   ],
+   "mana_gains": [
+    {
+     "element": "E",
+     "value": 1
+    },
+    {
+     "element": "I",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 19,
+   "type": "SUMMON",
+   "name": "Fire19",
+   "rarity": "common",
+   "power": 9,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "F"
+   ],
+   "mana_gains": [
+    {
+     "element": "E",
+     "value": 1
+    },
+    {
+     "element": "F",
+     "value": -2
+    },
+    {
+     "element": "W",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 20,
+   "type": "SUMMON",
+   "name": "Fire20",
+   "rarity": "common",
+   "power": 10,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 3,
+   "elements": [
+    "F"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 1
+    },
+    {
+     "element": "F",
+     "value": -3
+    },
+    {
+     "element": "S",
+     "value": 1
+    },
+    {
+     "element": "B",
+     "value": -3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 21,
+   "type": "SUMMON",
+   "name": "Ice21",
+   "rarity": "common",
+   "power": 1,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "I"
+   ],
+   "mana_gains": [
+    {
+     "element": "F",
+     "value": 3
+    },
+    {
+     "element": "M",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 22,
+   "type": "SUMMON",
+   "name": "Ice22",
+   "rarity": "common",
+   "power": 2,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "I"
+   ],
+   "mana_gains": [
+    {
+     "element": "W",
+     "value": 3
+    },
+    {
+     "element": "U",
+     "value": -1
+    },
+    {
+     "element": "S",
+     "value": 3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 23,
+   "type": "SUMMON",
+   "name": "Ice23",
+   "rarity": "common",
+   "power": 3,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "I"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 3
+    },
+    {
+     "element": "E",
+     "value": -1
+    },
+    {
+     "element": "W",
+     "value": 3
+    },
+    {
+     "element": "S",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 24,
+   "type": "SUMMON",
+   "name": "Ice24",
+   "rarity": "common",
+   "power": 4,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "I"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 2
+    },
+    {
+     "element": "M",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 25,
+   "type": "SUMMON",
+   "name": "Ice25",
+   "rarity": "common",
+   "power": 5,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "I"
+   ],
+   "mana_gains": [
+    {
+     "element": "W",
+     "value": 2
+    },
+    {
+     "element": "S",
+     "value": -1
+    },
+    {
+     "element": "U",
+     "value": 2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 26,
+   "type": "SUMMON",
+   "name": "Ice26",
+   "rarity": "common",
+   "power": 6,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "I"
+   ],
+   "mana_gains": [
+    {
+     "element": "I",
+     "value": 2
+    },
+    {
+     "element": "M",
+     "value": -1
+    },
+    {
+     "element": "E",
+     "value": 2
+    },
+    {
+     "element": "A",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 27,
+   "type": "SUMMON",
+   "name": "Ice27",
+   "rarity": "common",
+   "power": 7,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "I"
+   ],
+   "mana_gains": [
+    {
+     "element": "E",
+     "value": 1
+    },
+    {
+     "element": "F",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 28,
+   "type": "SUMMON",
+   "name": "Ice28",
+   "rarity": "common",
+   "power": 8,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "I"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 1
+    },
+    {
+     "element": "M",
+     "value": -2
+    },
+    {
+     "element": "B",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 29,
+   "type": "SUMMON",
+   "name": "Ice29",
+   "rarity": "common",
+   "power": 9,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "I"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 1
+    },
+    {
+     "element": "U",
+     "value": -2
+    },
+    {
+     "element": "W",
+     "value": 1
+    },
+    {
+     "element": "I",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 30,
+   "type": "SUMMON",
+   "name": "Ice30",
+   "rarity": "common",
+   "power": 10,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 3,
+   "elements": [
+    "I"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 1
+    },
+    {
+     "element": "B",
+     "value": -3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 31,
+   "type": "SUMMON",
+   "name": "Air31",
+   "rarity": "common",
+   "power": 1,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "A"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 3
+    },
+    {
+     "element": "F",
+     "value": -1
+    },
+    {
+     "element": "A",
+     "value": 3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 32,
+   "type": "SUMMON",
+   "name": "Air32",
+   "rarity": "common",
+   "power": 2,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "A"
+   ],
+   "mana_gains": [
+    {
+     "element": "S",
+     "value": 3
+    },
+    {
+     "element": "F",
+     "value": -1
+    },
+    {
+     "element": "I",
+     "value": 3
+    },
+    {
+     "element": "E",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 33,
+   "type": "SUMMON",
+   "name": "Air33",
+   "rarity": "common",
+   "power": 3,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "A"
+   ],
+   "mana_gains": [
+    {
+     "element": "I",
+     "value": 3
+    },
+    {
+     "element": "E",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 34,
+   "type": "SUMMON",
+   "name": "Air34",
+   "rarity": "common",
+   "power": 4,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "A"
+   ],
+   "mana_gains": [
+    {
+     "element": "U",
+     "value": 2
+    },
+    {
+     "element": "I",
+     "value": -1
+    },
+    {
+     "element": "S",
+     "value": 2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 35,
+   "type": "SUMMON",
+   "name": "Air35",
+   "rarity": "common",
+   "power": 5,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "A"
+   ],
+   "mana_gains": [
+    {
+     "element": "E",
+     "value": 2
+    },
+    {
+     "element": "I",
+     "value": -1
+    },
+    {
+     "element": "S",
+     "value": 2
+    },
+    {
+     "element": "B",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 36,
+   "type": "SUMMON",
+   "name": "Air36",
+   "rarity": "common",
+   "power": 6,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "A"
+   ],
+   "mana_gains": [
+    {
+     "element": "W",
+     "value": 2
+    },
+    {
+     "element": "E",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 37,
+   "type": "SUMMON",
+   "name": "Air37",
+   "rarity": "common",
+   "power": 7,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "A"
+   ],
+   "mana_gains": [
+    {
+     "element": "I",
+     "value": 1
+    },
+    {
+     "element": "B",
+     "value": -2
+    },
+    {
+     "element": "A",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 38,
+   "type": "SUMMON",
+   "name": "Air38",
+   "rarity": "common",
+   "power": 8,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "A"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 1
+    },
+    {
+     "element": "I",
+     "value": -2
+    },
+    {
+     "element": "F",
+     "value": 1
+    },
+    {
+     "element": "S",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 39,
+   "type": "SUMMON",
+   "name": "Air39",
+   "rarity": "common",
+   "power": 9,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "A"
+   ],
+   "mana_gains": [
+    {
+     "element": "S",
+     "value": 1
+    },
+    {
+     "element": "F",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 40,
+   "type": "SUMMON",
+   "name": "Air40",
+   "rarity": "common",
+   "power": 10,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 3,
+   "elements": [
+    "A"
+   ],
+   "mana_gains": [
+    {
+     "element": "U",
+     "value": 1
+    },
+    {
+     "element": "M",
+     "value": -3
+    },
+    {
+     "element": "W",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 41,
+   "type": "SUMMON",
+   "name": "Warrior41",
+   "rarity": "common",
+   "power": 1,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "W"
+   ],
+   "mana_gains": [
+    {
+     "element": "F",
+     "value": 3
+    },
+    {
+     "element": "M",
+     "value": -1
+    },
+    {
+     "element": "B",
+     "value": 3
+    },
+    {
+     "element": "I",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 42,
+   "type": "SUMMON",
+   "name": "Warrior42",
+   "rarity": "common",
+   "power": 2,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "W"
+   ],
+   "mana_gains": [
+    {
+     "element": "W",
+     "value": 3
+    },
+    {
+     "element": "I",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 43,
+   "type": "SUMMON",
+   "name": "Warrior43",
+   "rarity": "common",
+   "power": 3,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "W"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 3
+    },
+    {
+     "element": "W",
+     "value": -1
+    },
+    {
+     "element": "A",
+     "value": 3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 44,
+   "type": "SUMMON",
+   "name": "Warrior44",
+   "rarity": "common",
+   "power": 4,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "W"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 2
+    },
+    {
+     "element": "F",
+     "value": -1
+    },
+    {
+     "element": "I",
+     "value": 2
+    },
+    {
+     "element": "S",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 45,
+   "type": "SUMMON",
+   "name": "Warrior45",
+   "rarity": "common",
+   "power": 5,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "W"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 2
+    },
+    {
+     "element": "U",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 46,
+   "type": "SUMMON",
+   "name": "Warrior46",
+   "rarity": "common",
+   "power": 6,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "W"
+   ],
+   "mana_gains": [
+    {
+     "element": "W",
+     "value": 2
+    },
+    {
+     "element": "M",
+     "value": -1
+    },
+    {
+     "element": "A",
+     "value": 2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 47,
+   "type": "SUMMON",
+   "name": "Warrior47",
+   "rarity": "common",
+   "power": 7,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "W"
+   ],
+   "mana_gains": [
+    {
+     "element": "W",
+     "value": 1
+    },
+    {
+     "element": "B",
+     "value": -2
+    },
+    {
+     "element": "I",
+     "value": 1
+    },
+    {
+     "element": "M",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 48,
+   "type": "SUMMON",
+   "name": "Warrior48",
+   "rarity": "common",
+   "power": 8,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "W"
+   ],
+   "mana_gains": [
+    {
+     "element": "I",
+     "value": 1
+    },
+    {
+     "element": "M",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 49,
+   "type": "SUMMON",
+   "name": "Warrior49",
+   "rarity": "common",
+   "power": 9,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "W"
+   ],
+   "mana_gains": [
+    {
+     "element": "W",
+     "value": 1
+    },
+    {
+     "element": "M",
+     "value": -2
+    },
+    {
+     "element": "I",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 50,
+   "type": "SUMMON",
+   "name": "Warrior50",
+   "rarity": "common",
+   "power": 10,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 3,
+   "elements": [
+    "W"
+   ],
+   "mana_gains": [
+    {
+     "element": "E",
+     "value": 1
+    },
+    {
+     "element": "I",
+     "value": -3
+    },
+    {
+     "element": "B",
+     "value": 1
+    },
+    {
+     "element": "W",
+     "value": -3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 51,
+   "type": "SUMMON",
+   "name": "Metal51",
+   "rarity": "common",
+   "power": 1,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "M"
+   ],
+   "mana_gains": [
+    {
+     "element": "E",
+     "value": 3
+    },
+    {
+     "element": "S",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 52,
+   "type": "SUMMON",
+   "name": "Metal52",
+   "rarity": "common",
+   "power": 2,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "M"
+   ],
+   "mana_gains": [
+    {
+     "element": "E",
+     "value": 3
+    },
+    {
+     "element": "M",
+     "value": -1
+    },
+    {
+     "element": "W",
+     "value": 3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 53,
+   "type": "SUMMON",
+   "name": "Metal53",
+   "rarity": "common",
+   "power": 3,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "M"
+   ],
+   "mana_gains": [
+    {
+     "element": "I",
+     "value": 3
+    },
+    {
+     "element": "B",
+     "value": -1
+    },
+    {
+     "element": "F",
+     "value": 3
+    },
+    {
+     "element": "W",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 54,
+   "type": "SUMMON",
+   "name": "Metal54",
+   "rarity": "common",
+   "power": 4,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "M"
+   ],
+   "mana_gains": [
+    {
+     "element": "U",
+     "value": 2
+    },
+    {
+     "element": "F",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 55,
+   "type": "SUMMON",
+   "name": "Metal55",
+   "rarity": "common",
+   "power": 5,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "M"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 2
+    },
+    {
+     "element": "S",
+     "value": -1
+    },
+    {
+     "element": "B",
+     "value": 2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 56,
+   "type": "SUMMON",
+   "name": "Metal56",
+   "rarity": "common",
+   "power": 6,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "M"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 2
+    },
+    {
+     "element": "W",
+     "value": -1
+    },
+    {
+     "element": "A",
+     "value": 2
+    },
+    {
+     "element": "I",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 57,
+   "type": "SUMMON",
+   "name": "Metal57",
+   "rarity": "common",
+   "power": 7,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "M"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 1
+    },
+    {
+     "element": "I",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 58,
+   "type": "SUMMON",
+   "name": "Metal58",
+   "rarity": "common",
+   "power": 8,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "M"
+   ],
+   "mana_gains": [
+    {
+     "element": "I",
+     "value": 1
+    },
+    {
+     "element": "F",
+     "value": -2
+    },
+    {
+     "element": "U",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 59,
+   "type": "SUMMON",
+   "name": "Metal59",
+   "rarity": "common",
+   "power": 9,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "M"
+   ],
+   "mana_gains": [
+    {
+     "element": "I",
+     "value": 1
+    },
+    {
+     "element": "W",
+     "value": -2
+    },
+    {
+     "element": "E",
+     "value": 1
+    },
+    {
+     "element": "M",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 60,
+   "type": "SUMMON",
+   "name": "Metal60",
+   "rarity": "common",
+   "power": 10,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 3,
+   "elements": [
+    "M"
+   ],
+   "mana_gains": [
+    {
+     "element": "F",
+     "value": 1
+    },
+    {
+     "element": "A",
+     "value": -3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 61,
+   "type": "SUMMON",
+   "name": "Undead61",
+   "rarity": "common",
+   "power": 1,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "U"
+   ],
+   "mana_gains": [
+    {
+     "element": "F",
+     "value": 3
+    },
+    {
+     "element": "E",
+     "value": -1
+    },
+    {
+     "element": "U",
+     "value": 3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 62,
+   "type": "SUMMON",
+   "name": "Undead62",
+   "rarity": "common",
+   "power": 2,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "U"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 3
+    },
+    {
+     "element": "S",
+     "value": -1
+    },
+    {
+     "element": "U",
+     "value": 3
+    },
+    {
+     "element": "B",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 63,
+   "type": "SUMMON",
+   "name": "Undead63",
+   "rarity": "common",
+   "power": 3,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "U"
+   ],
+   "mana_gains": [
+    {
+     "element": "S",
+     "value": 3
+    },
+    {
+     "element": "F",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 64,
+   "type": "SUMMON",
+   "name": "Undead64",
+   "rarity": "common",
+   "power": 4,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "U"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 2
+    },
+    {
+     "element": "B",
+     "value": -1
+    },
+    {
+     "element": "A",
+     "value": 2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 65,
+   "type": "SUMMON",
+   "name": "Undead65",
+   "rarity": "common",
+   "power": 5,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "U"
+   ],
+   "mana_gains": [
+    {
+     "element": "F",
+     "value": 2
+    },
+    {
+     "element": "S",
+     "value": -1
+    },
+    {
+     "element": "M",
+     "value": 2
+    },
+    {
+     "element": "A",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 66,
+   "type": "SUMMON",
+   "name": "Undead66",
+   "rarity": "common",
+   "power": 6,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "U"
+   ],
+   "mana_gains": [
+    {
+     "element": "F",
+     "value": 2
+    },
+    {
+     "element": "E",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 67,
+   "type": "SUMMON",
+   "name": "Undead67",
+   "rarity": "common",
+   "power": 7,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "U"
+   ],
+   "mana_gains": [
+    {
+     "element": "B",
+     "value": 1
+    },
+    {
+     "element": "F",
+     "value": -2
+    },
+    {
+     "element": "S",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 68,
+   "type": "SUMMON",
+   "name": "Undead68",
+   "rarity": "common",
+   "power": 8,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "U"
+   ],
+   "mana_gains": [
+    {
+     "element": "B",
+     "value": 1
+    },
+    {
+     "element": "M",
+     "value": -2
+    },
+    {
+     "element": "I",
+     "value": 1
+    },
+    {
+     "element": "U",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 69,
+   "type": "SUMMON",
+   "name": "Undead69",
+   "rarity": "common",
+   "power": 9,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "U"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 1
+    },
+    {
+     "element": "U",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 70,
+   "type": "SUMMON",
+   "name": "Undead70",
+   "rarity": "common",
+   "power": 10,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 3,
+   "elements": [
+    "U"
+   ],
+   "mana_gains": [
+    {
+     "element": "W",
+     "value": 1
+    },
+    {
+     "element": "S",
+     "value": -3
+    },
+    {
+     "element": "E",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 71,
+   "type": "SUMMON",
+   "name": "Beast71",
+   "rarity": "common",
+   "power": 1,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "B"
+   ],
+   "mana_gains": [
+    {
+     "element": "S",
+     "value": 3
+    },
+    {
+     "element": "E",
+     "value": -1
+    },
+    {
+     "element": "B",
+     "value": 3
+    },
+    {
+     "element": "W",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 72,
+   "type": "SUMMON",
+   "name": "Beast72",
+   "rarity": "common",
+   "power": 2,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "B"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 3
+    },
+    {
+     "element": "E",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 73,
+   "type": "SUMMON",
+   "name": "Beast73",
+   "rarity": "common",
+   "power": 3,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "B"
+   ],
+   "mana_gains": [
+    {
+     "element": "S",
+     "value": 3
+    },
+    {
+     "element": "W",
+     "value": -1
+    },
+    {
+     "element": "B",
+     "value": 3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 74,
+   "type": "SUMMON",
+   "name": "Beast74",
+   "rarity": "common",
+   "power": 4,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "B"
+   ],
+   "mana_gains": [
+    {
+     "element": "S",
+     "value": 2
+    },
+    {
+     "element": "M",
+     "value": -1
+    },
+    {
+     "element": "B",
+     "value": 2
+    },
+    {
+     "element": "E",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 75,
+   "type": "SUMMON",
+   "name": "Beast75",
+   "rarity": "common",
+   "power": 5,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "B"
+   ],
+   "mana_gains": [
+    {
+     "element": "U",
+     "value": 2
+    },
+    {
+     "element": "B",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 76,
+   "type": "SUMMON",
+   "name": "Beast76",
+   "rarity": "common",
+   "power": 6,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "B"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 2
+    },
+    {
+     "element": "U",
+     "value": -1
+    },
+    {
+     "element": "W",
+     "value": 2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 77,
+   "type": "SUMMON",
+   "name": "Beast77",
+   "rarity": "common",
+   "power": 7,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "B"
+   ],
+   "mana_gains": [
+    {
+     "element": "M",
+     "value": 1
+    },
+    {
+     "element": "F",
+     "value": -2
+    },
+    {
+     "element": "W",
+     "value": 1
+    },
+    {
+     "element": "E",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 78,
+   "type": "SUMMON",
+   "name": "Beast78",
+   "rarity": "common",
+   "power": 8,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "B"
+   ],
+   "mana_gains": [
+    {
+     "element": "I",
+     "value": 1
+    },
+    {
+     "element": "E",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 79,
+   "type": "SUMMON",
+   "name": "Beast79",
+   "rarity": "common",
+   "power": 9,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "B"
+   ],
+   "mana_gains": [
+    {
+     "element": "B",
+     "value": 1
+    },
+    {
+     "element": "F",
+     "value": -2
+    },
+    {
+     "element": "S",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 80,
+   "type": "SUMMON",
+   "name": "Beast80",
+   "rarity": "common",
+   "power": 10,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 3,
+   "elements": [
+    "B"
+   ],
+   "mana_gains": [
+    {
+     "element": "S",
+     "value": 1
+    },
+    {
+     "element": "U",
+     "value": -3
+    },
+    {
+     "element": "W",
+     "value": 1
+    },
+    {
+     "element": "F",
+     "value": -3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 81,
+   "type": "SUMMON",
+   "name": "Sorcery81",
+   "rarity": "common",
+   "power": 1,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "S"
+   ],
+   "mana_gains": [
+    {
+     "element": "I",
+     "value": 3
+    },
+    {
+     "element": "A",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 82,
+   "type": "SUMMON",
+   "name": "Sorcery82",
+   "rarity": "common",
+   "power": 2,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "S"
+   ],
+   "mana_gains": [
+    {
+     "element": "U",
+     "value": 3
+    },
+    {
+     "element": "M",
+     "value": -1
+    },
+    {
+     "element": "W",
+     "value": 3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 83,
+   "type": "SUMMON",
+   "name": "Sorcery83",
+   "rarity": "common",
+   "power": 3,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "S"
+   ],
+   "mana_gains": [
+    {
+     "element": "I",
+     "value": 3
+    },
+    {
+     "element": "F",
+     "value": -1
+    },
+    {
+     "element": "M",
+     "value": 3
+    },
+    {
+     "element": "U",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 84,
+   "type": "SUMMON",
+   "name": "Sorcery84",
+   "rarity": "common",
+   "power": 4,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "S"
+   ],
+   "mana_gains": [
+    {
+     "element": "U",
+     "value": 2
+    },
+    {
+     "element": "I",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 85,
+   "type": "SUMMON",
+   "name": "Sorcery85",
+   "rarity": "common",
+   "power": 5,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "S"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 2
+    },
+    {
+     "element": "E",
+     "value": -1
+    },
+    {
+     "element": "S",
+     "value": 2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 86,
+   "type": "SUMMON",
+   "name": "Sorcery86",
+   "rarity": "common",
+   "power": 6,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "S"
+   ],
+   "mana_gains": [
+    {
+     "element": "E",
+     "value": 2
+    },
+    {
+     "element": "F",
+     "value": -1
+    },
+    {
+     "element": "A",
+     "value": 2
+    },
+    {
+     "element": "S",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 87,
+   "type": "SUMMON",
+   "name": "Sorcery87",
+   "rarity": "common",
+   "power": 7,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "S"
+   ],
+   "mana_gains": [
+    {
+     "element": "U",
+     "value": 1
+    },
+    {
+     "element": "B",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 88,
+   "type": "SUMMON",
+   "name": "Sorcery88",
+   "rarity": "common",
+   "power": 8,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "S"
+   ],
+   "mana_gains": [
+    {
+     "element": "W",
+     "value": 1
+    },
+    {
+     "element": "I",
+     "value": -2
+    },
+    {
+     "element": "E",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 89,
+   "type": "SUMMON",
+   "name": "Sorcery89",
+   "rarity": "common",
+   "power": 9,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "S"
+   ],
+   "mana_gains": [
+    {
+     "element": "F",
+     "value": 1
+    },
+    {
+     "element": "B",
+     "value": -2
+    },
+    {
+     "element": "W",
+     "value": 1
+    },
+    {
+     "element": "A",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 90,
+   "type": "SUMMON",
+   "name": "Sorcery90",
+   "rarity": "common",
+   "power": 10,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 3,
+   "elements": [
+    "S"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 1
+    },
+    {
+     "element": "U",
+     "value": -3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 91,
+   "type": "SUMMON",
+   "name": "Fire91",
+   "rarity": "common",
+   "power": 3,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 0,
+   "elements": [
+    "F",
+    "W"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 3
+    },
+    {
+     "element": "E",
+     "value": -1
+    },
+    {
+     "element": "I",
+     "value": 3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 92,
+   "type": "SUMMON",
+   "name": "Ice92",
+   "rarity": "common",
+   "power": 4,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "I",
+    "S"
+   ],
+   "mana_gains": [
+    {
+     "element": "S",
+     "value": 2
+    },
+    {
+     "element": "A",
+     "value": -1
+    },
+    {
+     "element": "W",
+     "value": 2
+    },
+    {
+     "element": "M",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 93,
+   "type": "SUMMON",
+   "name": "Earth93",
+   "rarity": "common",
+   "power": 5,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "E",
+    "M"
+   ],
+   "mana_gains": [
+    {
+     "element": "W",
+     "value": 2
+    },
+    {
+     "element": "B",
+     "value": -1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 94,
+   "type": "SUMMON",
+   "name": "Air94",
+   "rarity": "common",
+   "power": 6,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 1,
+   "elements": [
+    "A",
+    "B"
+   ],
+   "mana_gains": [
+    {
+     "element": "S",
+     "value": 2
+    },
+    {
+     "element": "W",
+     "value": -1
+    },
+    {
+     "element": "I",
+     "value": 2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 95,
+   "type": "SUMMON",
+   "name": "Undead95",
+   "rarity": "common",
+   "power": 7,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "U",
+    "S"
+   ],
+   "mana_gains": [
+    {
+     "element": "A",
+     "value": 1
+    },
+    {
+     "element": "M",
+     "value": -2
+    },
+    {
+     "element": "U",
+     "value": 1
+    },
+    {
+     "element": "F",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 96,
+   "type": "SUMMON",
+   "name": "Warrior96",
+   "rarity": "common",
+   "power": 8,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "W",
+    "M"
+   ],
+   "mana_gains": [
+    {
+     "element": "S",
+     "value": 1
+    },
+    {
+     "element": "B",
+     "value": -2
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Teleport",
+     "number": "2",
+     "manacost": 2,
+     "txt_key": "skill.teleport.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 97,
+   "type": "SUMMON",
+   "name": "Beast97",
+   "rarity": "common",
+   "power": 9,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 2,
+   "elements": [
+    "B",
+    "I"
+   ],
+   "mana_gains": [
+    {
+     "element": "E",
+     "value": 1
+    },
+    {
+     "element": "F",
+     "value": -2
+    },
+    {
+     "element": "I",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 98,
+   "type": "SUMMON",
+   "name": "Fire98",
+   "rarity": "common",
+   "power": 10,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 3,
+   "elements": [
+    "F",
+    "U"
+   ],
+   "mana_gains": [
+    {
+     "element": "I",
+     "value": 1
+    },
+    {
+     "element": "M",
+     "value": -3
+    },
+    {
+     "element": "E",
+     "value": 1
+    },
+    {
+     "element": "F",
+     "value": -3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 99,
+   "type": "SUMMON",
+   "name": "Earth99",
+   "rarity": "common",
+   "power": 11,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 3,
+   "elements": [
+    "E",
+    "S"
+   ],
+   "mana_gains": [
+    {
+     "element": "F",
+     "value": 1
+    },
+    {
+     "element": "U",
+     "value": -3
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Explosion",
+     "number": "3",
+     "manacost": 3,
+     "txt_key": "skill.explosion.txt"
+    }
+   ]
+  },
+  {
+   "card_id": 100,
+   "type": "SUMMON",
+   "name": "Air100",
+   "rarity": "common",
+   "power": 12,
+   "power_bonus": 0,
+   "attack_bonus": 0,
+   "damage": 0,
+   "shield": 0,
+   "mana_cost": 3,
+   "elements": [
+    "A",
+    "M"
+   ],
+   "mana_gains": [
+    {
+     "element": "E",
+     "value": 1
+    },
+    {
+     "element": "S",
+     "value": -3
+    },
+    {
+     "element": "U",
+     "value": 1
+    }
+   ],
+   "skills": [
+    {
+     "slot": 1,
+     "name": "Fire Ball",
+     "number": "2",
+     "manacost": 1,
+     "txt_key": "skill.fire_ball.txt"
+    }
+   ]
+  }
+ ]
+}

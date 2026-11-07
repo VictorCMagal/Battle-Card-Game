@@ -1,0 +1,15 @@
+{% extends "painel/base_painel.html" %}
+{% block body %}
+<h1>Cartas</h1>
+<div class="row wrap">
+  <form method="get" class="row"><input name="q" value="{{ q }}" placeholder="Nome ou Card_ID"><button class="btn">Buscar</button></form>
+  <a class="btn primary" href="{% url 'painel_carta_new' %}">Nova carta</a>
+  <a class="btn" href="{% url 'painel_cartas_import' %}">Importar JSON/CSV</a>
+  <a class="btn" href="{% url 'painel_cartas_export' %}">Exportar JSON</a>
+</div>
+<table class="table"><thead><tr><th>Card_ID</th><th>Nome</th><th>Tipo</th><th>Power</th><th>Mana</th><th></th></tr></thead>
+<tbody>{% for c in page %}<tr><td>{{ c.card_id }}</td><td>{{ c.name }}</td><td>{{ c.type }}</td><td>{{ c.power }}</td><td>{{ c.mana_cost }}</td>
+<td><a href="{% url 'painel_carta_edit' c.card_id %}">Editar</a>
+<form method="post" action="{% url 'painel_carta_delete' c.card_id %}" class="inline-form">{% csrf_token %}<button class="link danger">Remover</button></form></td></tr>{% endfor %}</tbody></table>
+{% include "painel/pager.html" %}
+{% endblock %}

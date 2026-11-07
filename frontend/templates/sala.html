@@ -1,0 +1,65 @@
+{% extends "base.html" %}{% load static %}
+{% block css %}<link rel="stylesheet" href="{% static 'css/arena.css' %}">{% endblock %}
+{% block bodyclass %}arena-page{% endblock %}
+{% block content %}
+<header class="topbar">
+  <h1 id="roomTitle"></h1>
+  <div class="row">
+    <span id="roomStatus" class="badge"></span>
+    <button class="btn" id="leaveBtn" data-i18n="room.leave"></button>
+  </div>
+</header>
+<main class="room-layout">
+  <section id="roomPanel" class="panel">
+    <h2 data-i18n="room.players"></h2>
+    <ul id="slotList" class="list"></ul>
+    <div class="row"><button class="btn primary" id="readyBtn" data-i18n="room.ready"></button></div>
+    <p id="roomMsg" class="muted"></p>
+  </section>
+
+  <section id="arenaWrap" class="arena-wrap" hidden>
+    <div class="side-top">
+      <div id="oppBar" class="statbar"></div>
+      <div id="timer" class="timer">--</div>
+      <div id="turnInfo" class="muted"></div>
+    </div>
+    <div id="board" class="board" aria-label="Arena"></div>
+    <div class="side-bottom">
+      <div id="meBar" class="statbar"></div>
+      <div class="row wrap actions">
+        <label class="inline"><input type="checkbox" id="faceUp" checked> <span data-i18n="arena.face_up"></span></label>
+        <button class="btn" id="doubleCastBtn" data-i18n="arena.double_cast"></button>
+        <button class="btn primary" id="endTurnBtn" data-i18n="arena.end_turn"></button>
+        <button class="btn" id="discardMeBtn" data-i18n="arena.my_discard"></button>
+        <button class="btn" id="discardOppBtn" data-i18n="arena.opp_discard"></button>
+      </div>
+      <div id="hand" class="hand"></div>
+    </div>
+  </section>
+
+  <aside class="panel side-panel">
+    <div id="inspector" class="inspector muted" data-i18n="arena.inspect_hint"></div>
+    <h3 data-i18n="arena.log"></h3>
+    <div id="eventLog" class="chat-log small" role="log"></div>
+    <h3 data-i18n="chat.title"></h3>
+    <div id="chatLog" class="chat-log small" role="log"></div>
+    <form id="chatForm" class="row">
+      <input id="chatInput" maxlength="126" autocomplete="off" data-i18n-placeholder="chat.placeholder">
+      <button class="btn primary" type="submit" data-i18n="chat.send"></button>
+    </form>
+  </aside>
+</main>
+
+<div id="coinOverlay" class="overlay" hidden>
+  <div class="modal"><h2 data-i18n="coin.title"></h2><p id="coinText"></p>
+    <div class="row center"><button class="btn big" data-symbol="X">X</button><button class="btn big" data-symbol="O">O</button></div>
+    <div id="coinTimer" class="timer"></div></div>
+</div>
+<div id="skillPopup" class="overlay" hidden><div class="modal"><h2 data-i18n="arena.skills"></h2>
+  <div id="skillList" class="col"></div><button class="btn" id="skillClose" data-i18n="common.cancel"></button></div></div>
+<div id="discardModal" class="overlay" hidden><div class="modal wide"><h2 id="discardTitle"></h2>
+  <div id="discardCards" class="card-grid"></div><button class="btn" id="discardClose" data-i18n="common.close"></button></div></div>
+<div id="resultOverlay" class="overlay" hidden><div class="modal"><h2 id="resultTitle"></h2>
+  <p id="resultText"></p><button class="btn primary" id="resultClose" data-i18n="room.back_to_room"></button></div></div>
+{% endblock %}
+{% block scripts %}<script src="{% static 'js/cards.js' %}"></script><script src="{% static 'js/sala.js' %}"></script>{% endblock %}

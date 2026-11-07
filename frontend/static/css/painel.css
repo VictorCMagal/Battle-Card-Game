@@ -1,0 +1,12 @@
+body.painel .topbar{justify-content:flex-start}
+body.painel .topbar a{color:var(--text);text-decoration:none;padding:4px 8px;border-radius:6px}
+body.painel .topbar a.active,body.painel .topbar a:hover{background:var(--panel2)}
+body.painel .topbar .right{margin-left:auto}
+.content{padding:16px;max-width:1200px;margin:0 auto}
+.cards-row{display:flex;gap:12px;flex-wrap:wrap}
+.stat{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:10px 16px;min-width:130px}
+.stat span{display:block;color:var(--muted);font-size:.85rem}.stat strong{font-size:1.5rem}
+.flash{padding:8px 12px;border-radius:8px;margin-bottom:8px;background:var(--panel2)}.flash.success{border-left:4px solid var(--ok)}.flash.error{border-left:4px solid var(--bad)}
+.form-block{max-width:640px}.form-block p{margin:8px 0}
+.inline-form{display:inline}.link{background:none;border:none;color:var(--accent);cursor:pointer;padding:0}.link.danger{color:var(--bad)}
+code{background:var(--panel2);padding:1px 5px;border-radius:4px;word-break:break-all}

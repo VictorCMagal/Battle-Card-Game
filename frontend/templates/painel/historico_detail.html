@@ -1,0 +1,7 @@
+{% extends "painel/base_painel.html" %}
+{% block body %}
+<h1>Partida {{ p.id }} · {{ p.modo }} · {{ p.resultado }} {{ p.vencedor }} ({{ p.motivo }})</h1>
+<table class="table"><thead><tr><th>#</th><th>Turno</th><th>Jogador</th><th>Evento</th><th>Dados</th></tr></thead>
+<tbody>{% for e in page %}<tr><td>{{ e.seq }}</td><td>{{ e.turno }}</td><td>{{ e.jogador }}</td><td>{{ e.tipo }}</td><td><code>{{ e.payload }}</code></td></tr>{% endfor %}</tbody></table>
+{% include "painel/pager.html" %}
+{% endblock %}
